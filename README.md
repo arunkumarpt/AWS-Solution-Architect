@@ -28,6 +28,14 @@ Elastic Block Store - faster, not volatile. s3 is stable to store images
 3. EBS faster, not lost, (pay money)
 
 
+Cloudwatch - for monitoring
+DYNAMODB/RDS/
+
+Route 53 
+
+
+
+
 
 
 
