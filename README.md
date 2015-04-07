@@ -12,7 +12,7 @@ Comparison
   - cost, pas as you go,elastic computing (add server on need basis and remove after use - automatic), scalable, sucrity complaince are offered(PCI,HIPAA).
 
 Vertical vs horizontal scaling
-
+web server vs application server
 horizontal scaling (Load Balancer, more instances)
 
 Core AWS services
