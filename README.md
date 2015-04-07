@@ -48,18 +48,18 @@ http://www.diffen.com/difference/Application_Server_vs_Web_Server
 | Storage | DAS,SAN,NAS,SSD      |  Amazon EBS, s3, EC2 Instance storage (SSD) |
 | Computer | Hardware, virtualization | EC2|
 Content Delivery|CDN (http://searchaws.techtarget.com/definition/content-delivery-network-CDN)|Cloud Front|
-|Data base|DB2,MS SQL Server,My SQL, Mongo DB, Couchbase etc |Amazon RDS,Dynamo DB,MS SQL Server,MySQL,Postgres SQL etc|
+|Data base|DB2,MS SQL Server,My SQL, Mongo DB, Couchbase etc | Amazon RDS,Dynamo DB,MS SQL Server,MySQL,Postgres SQL etc|
 |Load balancing| Hardware and software balancing, HA proxy (https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)| Elastic load balancing,software and hardware balancing,HA proxy|
 |Scaling|Clustering,Zookeeper| Auto scaling,software clustering|
 |DNS| DNS providers| Amazon route 53|
 |Analytics| Hadoop, Cassandra,spark | Amazon elastic map reduce|
-|Data warehousing|Specialized HW/SW |Amazon redshift|
+|Data warehousing|Specialized HW/SW | Amazon redshift|
 |Messaging and workflow | Messaaging and workflow software | Amazon SQS,SNS,SWF|
-|Caching|memcached,SAP Hana (http://en.wikipedia.org/wiki/SAP_HANA),(http://memcached.org/)| Amazon Elastic Cache|
-|Archiving| Tape Library,tape storage |Amazon Glacier|
+|Caching| memcached,SAP Hana (http://en.wikipedia.org/wiki/SAP_HANA),(http://memcached.org/)| Amazon Elastic Cache|
+|Archiving| Tape Library,tape storage | Amazon Glacier|
 |Email|Email software| Amazon simple Email Storage|
 |Identity Management| LDAP| AWS IAM,LDAP|
-|Deployment|Chef,Puppet|AMIs,CloudFormation,OpsWorks,Elastic Beanstalk|
+|Deployment|Chef,Puppet| AMIs,CloudFormation,OpsWorks,Elastic Beanstalk|
 |Management and Monitoring| CA,BMC,Rightscale| AWS cloudwatch,cloudtrial|
 
 
@@ -106,6 +106,7 @@ Deciding between Regions
   - Cost
   - Features
   - Legal
+
 ###Regions and availability zones
 
 ####Region level services and AZ level services
@@ -115,10 +116,43 @@ Deciding between Regions
 | S3      | EC2 | IAM |
 | Dynamo DB      | EBS      | Route 53|   
 | Auto Scaling |       | CloudFront|
-|Cloud search |     | | 
+| Cloud search |     | | 
+| Highly available | Not highly available| |
+| Managed by AWS | managed by user | Managed by AWS|
 
 
+#### Services
 
+   - Elastic Load Balancing
+   - Auto scale group (based on time , metric, load)
+   - S3 (span across AZs)
+   - Dynamo DB (stored in SDD)
+   - Amazon Machine image (basic unit of deployment)
+   - RDS (back up, patch mgmt,native access to mySQL)
+   - EC2
+
+
+##Accessing AWS
+
+  - AWS is API driven
+  - Can do much more than 'management console' using API calls
+  - REST API
+  - Identity and Access Management (IAM)
+  - IAM is not applicable for application management
+  - Dont use 'root' account
+  - Enable MFA as a best practice with IAM
+  -  IAM roles can be assigned for shot span of time
+  -  Two policies while creating roles  
+        - trust policy (principal)
+        - access (what actions)
+  - Accessing AWS through Mgmt Console(username/password), AWS CLI(access key + secret key), SDK,APIs (access key + secret key).
+  - Policies are stored in JSON
+  - Create policies using template,policy generator, custom, check with simulator
+  - Role based Access management
+
+##AWS Security Token Service using Federation
+
+  - 
 
 
 
