@@ -23,8 +23,8 @@ Core AWS services
 Traditionional to AWS mapping to understand AWS architecture
 
 
-| Technology stack       | on-premises                           | AWS                                 |
-| ---------------------- |:-------------------------------------:| -----------------------------------:|
+| Technology stack  | on-premises                         | AWS                                 |
+| -------------------|:----------------------------------:| -----------------------------------:|
 | Network      | VPN,MPLS,VLAN, Routing tables | Amazon VPC,VPN,AWS Direct connect,routing tables |
 | Security     | Firewalls,SSL,user groups etc      | AWS security groups, Cloud HSM, s3 SSE, cloudtrial etc |
 | Storage | DAS,SAN,NAS,SSD      |  Amazon EBS, s3, EC2 Instance storage (SSD) |
