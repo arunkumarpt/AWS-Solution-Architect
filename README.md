@@ -26,8 +26,10 @@ Traditionional to AWS mapping to understand AWS architecture
 | Technology stack       | on-premises                           | AWS                                 |
 | ---------------------- |:-------------------------------------:| -----------------------------------:|
 | Network      | VPN,MPLS,VLAN, Routing tables | Amazon VPC,VPN,AWS Direct connect,routing tables |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Security     | Firewalls,SSL,user groups etc      | AWS security groups, Cloud HSM, s3 SSE, cloudtrial etc |
+| Storage | DAS,SAN,NAS,SSD      |  Amazon EBS, s3, EC2 Instance storage (SSD) |
+| Computer | Hardware, virtualization | EC2|
+Content Delivery|CDN (http://searchaws.techtarget.com/definition/content-delivery-network-CDN)|Cloud Front|
      
 
 
