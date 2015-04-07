@@ -13,28 +13,22 @@ Comparison
 
 Vertical vs horizontal scaling
 web server vs application server
+http://javarevisited.blogspot.com/2012/05/5-difference-between-application-server.html
+http://www.diffen.com/difference/Application_Server_vs_Web_Server
+
 horizontal scaling (Load Balancer, more instances)
 
 Core AWS services
 
-EC2, Simpe storage Service, s3 is slow due to multiple locations. EC2 loads the image to epheremeal storage. s3 to physical storage. volitility :(
-
-Elastic Block Store - faster, not volatile. s3 is stable to store images
-
-3 options 
-
-1. s3
-2. s3 to epheremel (free).
-3. EBS faster, not lost, (pay money)
+Traditionional to AWS mapping to understand AWS architecture
 
 
-Cloudwatch - for monitoring
-DYNAMODB/RDS/
-
-Route 53 
-
-
-
+| Technology stack       | on-premises                   | AWS                         |
+| ---------------------- |:-------------................:| ---------------------------:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+     
 
 
 
