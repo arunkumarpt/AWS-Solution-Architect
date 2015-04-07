@@ -31,8 +31,7 @@ Traditionional to AWS mapping to understand AWS architecture
 | Computer | Hardware, virtualization | EC2|
 Content Delivery|CDN (http://searchaws.techtarget.com/definition/content-delivery-network-CDN)|Cloud Front|
 |Data base|DB2,MS SQL Server,My SQL, Mongo DB, Couchbase etc |Amazon RDS,Dynamo DB,MS SQL Server,MySQL,Postgres SQL etc|
-|Load balancing| Hardware and software balancing, HA proxy (https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)
-| Elastic load balancing,software and hardware balancing,HA proxy|
+|Load balancing| Hardware and software balancing, HA proxy (https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)| Elastic load balancing,software and hardware balancing,HA proxy|
 |Scaling|Clustering,Zookeeper| Auto scaling,software clustering|
 |DNS| DNS providers| Amazon route 53|
 |Analytics| Hadoop, Cassandra,spark | Amazon elastic map reduce|
