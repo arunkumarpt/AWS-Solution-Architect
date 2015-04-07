@@ -65,6 +65,12 @@ Content Delivery|CDN (http://searchaws.techtarget.com/definition/content-deliver
 
 #The security model in AWS
 
+Amazon Web Services (AWS) delivers a scalable cloud computing platform with high availability and dependability,
+providing the tools that enable customers to run a wide range of applications. Helping to protect the confidentiality,
+integrity, and availability of our customers’ systems and data is of the utmost importance to AWS, as is maintaining
+customer trust and confidence.
+###Shared Security Responsibility Model
+
 ```
 http://d0.awsstatic.com/whitepapers/Security/AWS%20Security%20Whitepaper.pdf
 ```
