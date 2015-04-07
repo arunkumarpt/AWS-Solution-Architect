@@ -86,6 +86,37 @@ worry about launching and maintaining instances, patching the guest OS or databa
 handles that for you.
 ####AWS Account Security Features
 
+  - AWS Credentials
+  - Passwords
+  - AWS Multi-Factor Authentication (AWS MFA)
+  - Access Keys 
+  - Key Pairs 
+  - X.509 Certificates
+  - Individual User Accounts
+  - Secure HTTPS Access Points
+  - Security Logs
+  - AWS Trusted Advisor Security Checks
+
+Data stored in Amazon EBS volumes is redundantly stored in multiple physical locations as part of normal operation of those services and at no additional charge. However, Amazon EBS replication is stored within the same availability zone, not across multiple zones; therefore, it is highly recommended that you conduct regular snapshots to Amazon S3 for long-term data durability.
+
+## AWS Global Infrastructure
+Deciding between Regions
+
+  - Latency
+  - Cost
+  - Features
+  - Legal
+###Regions and availability zones
+
+####Region level services and AZ level services
+
+| Region level      | AZ level           | Global|
+| ------------- |:-------------:| ---------:|
+| S3      | EC2 | IAM |
+| Dynamo DB      | EBS      | Route 53|   
+| Auto Scaling |       | CloudFront|
+|Cloud search |     | | 
+
 
 
 
