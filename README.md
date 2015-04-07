@@ -23,9 +23,9 @@ Core AWS services
 Traditionional to AWS mapping to understand AWS architecture
 
 
-| Technology stack       | on-premises                   | AWS                         |
-| ---------------------- |:-----------------------------:| ---------------------------:|
-| col 3 is      | right-aligned | $1600 |
+| Technology stack       | on-premises                           | AWS                                 |
+| ---------------------- |:-------------------------------------:| -----------------------------------:|
+| Network      | VPN,MPLS,VLAN, Routing tables | Amazon VPC,VPN,AWS Direct connect,routing tables |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
      
