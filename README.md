@@ -73,7 +73,20 @@ customer trust and confidence.
 
 ```
 http://d0.awsstatic.com/whitepapers/Security/AWS%20Security%20Whitepaper.pdf
+http://media.amazonwebservices.com/AWS_Security_Best_Practices.pdf
+http://aws.amazon.com/compliance/
 ```
+AWS products that fall into the well-understood category of Infrastructure as a Service (IaaS)—such as Amazon EC2,
+Amazon VPC, and Amazon S3—are completely under your control and require you to perform all of the necessary
+security configuration and management tasks
+
+AWS managed services like Amazon RDS or Amazon Redshift provide all of the resources you need in order to perform a
+specific task—but without the configuration work that can come with them. With managed services, you don’t have to
+worry about launching and maintaining instances, patching the guest OS or database, or replicating databases—AWS
+handles that for you.
+####AWS Account Security Features
+
+
 
 
 
