@@ -178,6 +178,15 @@ http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
   - temporary access to AWS
   - support for Amazon,google,facebook
 
+## IAM
+  - templates
+  - Administrative access
+  - Power User access
+  - Read only access
+  - Automated policy 
+  - consolidated billing
+  - MFA
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
 
 
