@@ -190,5 +190,22 @@ http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
 
 
 # VPC
-                                                                                                                  - Its like on premise private data centers
-                                                                                                                  
+
+- Its like on premise private data centers
+- NAT is way to connect to private network
+- load balancing and auto scaling possible
+- extend current private network to AWS
+- Regular VPC and default VPC
+- no more classic EC2, atleast default VPC
+- public IP only for default VPC
+- can access only through elastic IP,VPN or gateway instance
+- VPC Peering
+
+VPC Scenarios
+  - VPC with public subnet only (default) - single tier - just a web server
+  - VPC with public and private subnet - database instance and web server
+  - VPC with public and private subnet with hardware VPN
+  - VPC with private subnet with hardware access (AD in cloud)
+  - gateway = no of VPC
+
+  - 
