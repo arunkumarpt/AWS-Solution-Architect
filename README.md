@@ -190,4 +190,5 @@ http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
 
 
 # VPC
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                  - Its like on premise private data centers
+                                                                                                                  
