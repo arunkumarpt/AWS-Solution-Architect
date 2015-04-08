@@ -159,7 +159,28 @@ http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
   - STS lightweight web service can request temp credentials  for IAM users
   - federated user
   - STS identity broker with federation user
-  - 
+  - To access by a third party , using their AWS account id and external id we define a truested entitly for the role. After creating the role, we can share Amazon resource Name (ARN) with the 3rd party.
+
+## SSO Federation Using SAML 2.0
+
+  - Single sign-on
+  - Use existing identity management software to manage access to AWS resources
+  - open standard
+  - one username and password
+  - Assume Role with SAML API
+
+## AWS Directory Service
+  - Active Directory to AWS
+  - AD connector
+  - Simple AD powered by Samba 4
+
+## Web Identity Federation
+  - temporary access to AWS
+  - support for Amazon,google,facebook
+
+
+
+
 
 
 
