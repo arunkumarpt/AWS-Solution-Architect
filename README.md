@@ -217,6 +217,5 @@ VPC Scenarios
   - Network ACLs vs Security groups
   - NACL stateless,subnet based, both allow and deny.
   - Security groups only whitelist
-
- 
-  - 
+  - AWS Direct between datacenter and AWS by using VPN (for big data transfers)- extending on premise connection to AWS
+  
