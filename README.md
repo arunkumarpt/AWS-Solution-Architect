@@ -186,12 +186,6 @@ http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
   - Automated policy 
   - consolidated billing
   - MFA
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-
-
-
-
-
-
-
-
+  - API access with roles
+ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
