@@ -207,5 +207,16 @@ VPC Scenarios
   - VPC with public and private subnet with hardware VPN
   - VPC with private subnet with hardware access (AD in cloud)
   - gateway = no of VPC
+  - even if you have a gateway setup, still EC2 instances needs either load balancer or elastic IP to access internet
+  - Network Access control List
+  - IGW (Internet Gateway) provides access to internet
+  - Virtual Gateway - access to datacenter
+  - NAT (Network Address translation) server provides internet to your private instance
+  - Subnet maps to availability zones
+  - Network Access Control Lists 
+  - Network ACLs vs Security groups
+  - NACL stateless,subnet based, both allow and deny.
+  - Security groups only whitelist
 
+ 
   - 
