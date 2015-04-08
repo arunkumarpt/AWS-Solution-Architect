@@ -150,8 +150,15 @@ Deciding between Regions
   - Create policies using template,policy generator, custom, check with simulator
   - Role based Access management
 
-##AWS Security Token Service using Federation
+##AWS Security Token Service using Federation 
 
+```
+http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
+```
+
+  - STS lightweight web service can request temp credentials  for IAM users
+  - federated user
+  - STS identity broker with federation user
   - 
 
 
