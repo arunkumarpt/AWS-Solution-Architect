@@ -219,7 +219,27 @@ VPC Scenarios
   - Security groups only whitelist
   - AWS Direct between datacenter and AWS by using VPN (for big data transfers)- extending on premise connection to AWS
   - As NAT is a single point of failure, we can use HA NAT (Auto scaling as well)
-  - 
-  - 
+
+#EC2
+  - Virtualization of physical server
+  - Amazon Machine Image
+  - Different AMIs available
+    - Basic AMi by Amazon
+    - AWS market place
+    - Community AMI
+    - our own AMI
+    - VM import
+ - EC2 instance types
+    - General Purpose T2 and M3
+    - Compute Optimize C3
+    - Memory Optimize R3
+    - GPU G2
+    - Storage I2,HS1 (Hadoop,map reduce)
+ - Isolation via Xen hypervisior
+ - epheremal disks are directly attached to hypervisor
+ - Ec2 classic
+ - EBS(Elastic Block storage - Network Attached), we can specify IOPS
+ - 1GD to 1TB
+ - SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSSnSnSnSnSnSnSnSnSnSnSnSSnSnSnSnSnSnSnSnnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnnSnSnSnnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSnSn
   
 
