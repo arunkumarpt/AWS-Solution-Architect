@@ -241,5 +241,8 @@ VPC Scenarios
  - EBS(Elastic Block storage - Network Attached), we can specify IOPS
  - 1GD to 1TB
  - Snapshots are the best
+ - User data/cloud init (will take longer than from AMI)
+ - User data will run the script which is specified
+ - 
   
 
