@@ -243,6 +243,6 @@ VPC Scenarios
  - Snapshots are the best
  - User data/cloud init (will take longer than from AMI)
  - User data will run the script which is specified
- - 
-  
+
+sfsdf
 
